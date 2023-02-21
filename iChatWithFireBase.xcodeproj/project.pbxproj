@@ -12,6 +12,8 @@
 		9524776F29A55AD80003A9B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9524776E29A55AD80003A9B4 /* Assets.xcassets */; };
 		9524777229A55AD80003A9B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9524777129A55AD80003A9B4 /* Preview Assets.xcassets */; };
 		9524777929A55DD70003A9B4 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9524777829A55DD70003A9B4 /* SignInViewModel.swift */; };
+		9524777B29A563370003A9B4 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9524777A29A563370003A9B4 /* SignUpView.swift */; };
+		9524777D29A563E10003A9B4 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9524777C29A563E10003A9B4 /* SignUpViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		9524776E29A55AD80003A9B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9524777129A55AD80003A9B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9524777829A55DD70003A9B4 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		9524777A29A563370003A9B4 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		9524777C29A563E10003A9B4 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,11 +57,11 @@
 		9524776929A55AD70003A9B4 /* iChatWithFireBase */ = {
 			isa = PBXGroup;
 			children = (
+				9524777F29A563FA0003A9B4 /* ViewModel */,
+				9524777E29A563F10003A9B4 /* View */,
 				9524776A29A55AD70003A9B4 /* iChatWithFireBaseApp.swift */,
-				9524776C29A55AD70003A9B4 /* SignInview.swift */,
 				9524776E29A55AD80003A9B4 /* Assets.xcassets */,
 				9524777029A55AD80003A9B4 /* Preview Content */,
-				9524777829A55DD70003A9B4 /* SignInViewModel.swift */,
 			);
 			path = iChatWithFireBase;
 			sourceTree = "<group>";
@@ -68,6 +72,24 @@
 				9524777129A55AD80003A9B4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9524777E29A563F10003A9B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9524776C29A55AD70003A9B4 /* SignInview.swift */,
+				9524777A29A563370003A9B4 /* SignUpView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9524777F29A563FA0003A9B4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9524777829A55DD70003A9B4 /* SignInViewModel.swift */,
+				9524777C29A563E10003A9B4 /* SignUpViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +162,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9524777B29A563370003A9B4 /* SignUpView.swift in Sources */,
 				9524776D29A55AD70003A9B4 /* SignInview.swift in Sources */,
+				9524777D29A563E10003A9B4 /* SignUpViewModel.swift in Sources */,
 				9524776B29A55AD70003A9B4 /* iChatWithFireBaseApp.swift in Sources */,
 				9524777929A55DD70003A9B4 /* SignInViewModel.swift in Sources */,
 			);
