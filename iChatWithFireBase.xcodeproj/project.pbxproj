@@ -18,6 +18,7 @@
 		9524778429A5AF3F0003A9B4 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9524778329A5AF3F0003A9B4 /* FirebaseAuth */; };
 		9524778629A5AF3F0003A9B4 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 9524778529A5AF3F0003A9B4 /* FirebaseFirestore */; };
 		9524778829A5AF3F0003A9B4 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 9524778729A5AF3F0003A9B4 /* FirebaseStorage */; };
+		9524778C29A5B9D00003A9B4 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9524778B29A5B9D00003A9B4 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		9524777A29A563370003A9B4 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		9524777C29A563E10003A9B4 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
 		9524778029A5AE9A0003A9B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9524778B29A5B9D00003A9B4 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 		9524776929A55AD70003A9B4 /* iChatWithFireBase */ = {
 			isa = PBXGroup;
 			children = (
+				9524778B29A5B9D00003A9B4 /* ImagePicker.swift */,
 				9524778029A5AE9A0003A9B4 /* GoogleService-Info.plist */,
 				9524777F29A563FA0003A9B4 /* ViewModel */,
 				9524777E29A563F10003A9B4 /* View */,
@@ -183,6 +186,7 @@
 				9524777B29A563370003A9B4 /* SignUpView.swift in Sources */,
 				9524776D29A55AD70003A9B4 /* SignInview.swift in Sources */,
 				9524777D29A563E10003A9B4 /* SignUpViewModel.swift in Sources */,
+				9524778C29A5B9D00003A9B4 /* ImagePicker.swift in Sources */,
 				9524776B29A55AD70003A9B4 /* iChatWithFireBaseApp.swift in Sources */,
 				9524777929A55DD70003A9B4 /* SignInViewModel.swift in Sources */,
 			);
