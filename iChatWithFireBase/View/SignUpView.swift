@@ -12,7 +12,6 @@ struct SignUpView: View {
     @StateObject var viewModel = SignUpViewModel()
     
     var body: some View {
-        NavigationView {
             VStack {
                 
                 //MARK: LOGO
@@ -57,6 +56,10 @@ struct SignUpView: View {
                 
                 
                 //MARK: BUTTONS
+                if viewModel.isLoading {
+                    ProgressView()
+                        .padding()
+                }
                 Button {
                     viewModel.signUp()
                 } label: {
@@ -67,13 +70,10 @@ struct SignUpView: View {
                         .foregroundColor(Color.white)
                         .cornerRadius(24.0)
                 }
-                Divider()
-                    .padding()
-                
-                NavigationLink(destination: SignUpView()) {
-                    Text("Já possui uma conta? Clique para logar.")
-                        .foregroundColor(Color.black)
+                .alert(isPresented: $viewModel.formInvalid) {
+                    Alert(title: Text(viewModel.alertText))
                 }
+                
                 
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -82,7 +82,6 @@ struct SignUpView: View {
             .navigationBarTitleDisplayMode(.inline)
             .navigationBarHidden(true)
         }
-    }
 }
 
 struct SignUpView_Previews: PreviewProvider {
