@@ -10,8 +10,8 @@ import FirebaseAuth
 
 //MARK: CRIANDO MINHA CLASSE E INFORMANDO QUE ELA É UM OBJETO OBSERVAVÉL
 class SignInViewModel : ObservableObject {
-    var email = ""
-    var password = ""
+    @Published var email = ""
+    @Published var password = ""
     
     @Published var formInvalid = false
     
