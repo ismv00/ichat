@@ -23,6 +23,9 @@
 		9582192429A706D50045A3EA /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9582192329A706D50045A3EA /* ContentViewModel.swift */; };
 		9582192629A709360045A3EA /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9582192529A709360045A3EA /* MessagesView.swift */; };
 		9582192829A709740045A3EA /* MessagesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9582192729A709740045A3EA /* MessagesViewModel.swift */; };
+		95AE660229AAB0A600973525 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE660129AAB0A600973525 /* ContactsView.swift */; };
+		95AE660429AAB0D900973525 /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE660329AAB0D900973525 /* ContactsViewModel.swift */; };
+		95AE660729AAB13700973525 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE660629AAB13700973525 /* Contacts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		9582192329A706D50045A3EA /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		9582192529A709360045A3EA /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
 		9582192729A709740045A3EA /* MessagesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewModel.swift; sourceTree = "<group>"; };
+		95AE660129AAB0A600973525 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		95AE660329AAB0D900973525 /* ContactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewModel.swift; sourceTree = "<group>"; };
+		95AE660629AAB13700973525 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 			children = (
 				9524778B29A5B9D00003A9B4 /* ImagePicker.swift */,
 				9524778029A5AE9A0003A9B4 /* GoogleService-Info.plist */,
+				95AE660529AAB12400973525 /* Model */,
 				9524777F29A563FA0003A9B4 /* ViewModel */,
 				9524777E29A563F10003A9B4 /* View */,
 				9524776A29A55AD70003A9B4 /* iChatWithFireBaseApp.swift */,
@@ -101,6 +108,7 @@
 				9582192129A706850045A3EA /* ContentView.swift */,
 				9524777A29A563370003A9B4 /* SignUpView.swift */,
 				9582192529A709360045A3EA /* MessagesView.swift */,
+				95AE660129AAB0A600973525 /* ContactsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -112,8 +120,17 @@
 				9524777C29A563E10003A9B4 /* SignUpViewModel.swift */,
 				9582192329A706D50045A3EA /* ContentViewModel.swift */,
 				9582192729A709740045A3EA /* MessagesViewModel.swift */,
+				95AE660329AAB0D900973525 /* ContactsViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		95AE660529AAB12400973525 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				95AE660629AAB13700973525 /* Contacts.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,14 +213,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				9582192429A706D50045A3EA /* ContentViewModel.swift in Sources */,
+				95AE660429AAB0D900973525 /* ContactsViewModel.swift in Sources */,
 				9524777B29A563370003A9B4 /* SignUpView.swift in Sources */,
 				9582192829A709740045A3EA /* MessagesViewModel.swift in Sources */,
 				9582192629A709360045A3EA /* MessagesView.swift in Sources */,
 				9524776D29A55AD70003A9B4 /* SignInview.swift in Sources */,
 				9582192229A706850045A3EA /* ContentView.swift in Sources */,
 				9524777D29A563E10003A9B4 /* SignUpViewModel.swift in Sources */,
+				95AE660729AAB13700973525 /* Contacts.swift in Sources */,
 				9524778C29A5B9D00003A9B4 /* ImagePicker.swift in Sources */,
 				9524776B29A55AD70003A9B4 /* iChatWithFireBaseApp.swift in Sources */,
+				95AE660229AAB0A600973525 /* ContactsView.swift in Sources */,
 				9524777929A55DD70003A9B4 /* SignInViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
