@@ -13,13 +13,22 @@ struct ContactsView: View {
     var body: some View {
         VStack {
             //MARK: UMA LISTA PRECISA SEMPRE TER UM IDENTIFICADOR POIS NÃO PODE SE REPETIR
+            if viewModel.isLoading {
+                ProgressView()
+            }
             List(viewModel.contacts, id: \.self) { contact in
+                NavigationLink {
+                    ChatView(username: contact.name)
+                } label: {
+                    ContactRow(contact: contact)
+                }
                 ContactRow(contact: contact)
                 
             }
         }.onAppear {
             viewModel.getContacts()
         }
+        .navigationTitle("Contatos")
     }
 }
 
@@ -48,3 +57,4 @@ struct ContactsView_Previews: PreviewProvider {
         ContactsView()
     }
 }
+

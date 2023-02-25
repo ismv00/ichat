@@ -26,6 +26,9 @@
 		95AE660229AAB0A600973525 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE660129AAB0A600973525 /* ContactsView.swift */; };
 		95AE660429AAB0D900973525 /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE660329AAB0D900973525 /* ContactsViewModel.swift */; };
 		95AE660729AAB13700973525 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE660629AAB13700973525 /* Contacts.swift */; };
+		95AE660929AABE3700973525 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE660829AABE3700973525 /* Message.swift */; };
+		95AE660B29AABE8900973525 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE660A29AABE8900973525 /* ChatViewModel.swift */; };
+		95AE660D29AABF1E00973525 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AE660C29AABF1E00973525 /* ChatView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +49,9 @@
 		95AE660129AAB0A600973525 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
 		95AE660329AAB0D900973525 /* ContactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewModel.swift; sourceTree = "<group>"; };
 		95AE660629AAB13700973525 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		95AE660829AABE3700973525 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		95AE660A29AABE8900973525 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		95AE660C29AABF1E00973525 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,7 @@
 				9524777A29A563370003A9B4 /* SignUpView.swift */,
 				9582192529A709360045A3EA /* MessagesView.swift */,
 				95AE660129AAB0A600973525 /* ContactsView.swift */,
+				95AE660C29AABF1E00973525 /* ChatView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -121,6 +128,7 @@
 				9582192329A706D50045A3EA /* ContentViewModel.swift */,
 				9582192729A709740045A3EA /* MessagesViewModel.swift */,
 				95AE660329AAB0D900973525 /* ContactsViewModel.swift */,
+				95AE660A29AABE8900973525 /* ChatViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -129,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				95AE660629AAB13700973525 /* Contacts.swift */,
+				95AE660829AABE3700973525 /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -216,6 +225,7 @@
 				95AE660429AAB0D900973525 /* ContactsViewModel.swift in Sources */,
 				9524777B29A563370003A9B4 /* SignUpView.swift in Sources */,
 				9582192829A709740045A3EA /* MessagesViewModel.swift in Sources */,
+				95AE660D29AABF1E00973525 /* ChatView.swift in Sources */,
 				9582192629A709360045A3EA /* MessagesView.swift in Sources */,
 				9524776D29A55AD70003A9B4 /* SignInview.swift in Sources */,
 				9582192229A706850045A3EA /* ContentView.swift in Sources */,
@@ -225,6 +235,8 @@
 				9524776B29A55AD70003A9B4 /* iChatWithFireBaseApp.swift in Sources */,
 				95AE660229AAB0A600973525 /* ContactsView.swift in Sources */,
 				9524777929A55DD70003A9B4 /* SignInViewModel.swift in Sources */,
+				95AE660B29AABE8900973525 /* ChatViewModel.swift in Sources */,
+				95AE660929AABE3700973525 /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
